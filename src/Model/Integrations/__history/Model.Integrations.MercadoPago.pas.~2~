@@ -1,0 +1,11 @@
+unit Model.Integrations.MercadoPago;
+
+interface
+type
+  TModelIntegrationsMercadoPago = class
+
+  end;
+
+implementation
+
+end.

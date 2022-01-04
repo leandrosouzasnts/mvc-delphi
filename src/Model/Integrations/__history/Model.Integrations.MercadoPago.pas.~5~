@@ -1,0 +1,16 @@
+unit Model.Integrations.MercadoPago;
+
+interface
+
+uses
+   Model.Integrations.Interfaces;
+type
+  TModelIntegrationsMercadoPago = class(TInterfacedObject, iModelIntegrationsInterfaces)
+    constructor Create;
+    destructor Destroy; override;
+    class function New : iModelIntegrationsInterfaces;
+  end;
+
+implementation
+
+end.

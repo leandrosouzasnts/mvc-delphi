@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/09/26 23:44:11.000.296,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 22:39:50.000.257,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 22:40:10.000.490,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/01/03 22:40:41.000.333,C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\workspaces\ws-delphi\mvc-delphi\src\Model\Services\Model.Services.Boletos.pas</Transaction>
+    <Transaction>2022/01/03 22:41:00.000.982,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/01/03 22:41:08.000.369,C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\workspaces\ws-delphi\mvc-delphi\src\Model\Services\Model.Services.Interfaces.pas</Transaction>
+    <Transaction>2022/01/03 22:42:28.000.948,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/01/03 22:42:36.000.147,C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\workspaces\ws-delphi\mvc-delphi\src\Model\Services\Model.Services.NFe.pas</Transaction>
+    <Transaction>2022/01/03 22:43:41.000.349,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/01/03 22:43:53.000.063,C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\workspaces\ws-delphi\mvc-delphi\src\Model\Integrations\Model.Integrations.MercadoPago.pas</Transaction>
+    <Transaction>2022/01/03 22:44:15.000.329,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/01/03 22:44:41.000.520,C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\workspaces\ws-delphi\mvc-delphi\src\Model\Integrations\Model.Integrations.Interfaces.pas</Transaction>
+    <Transaction>2022/01/03 22:48:14.000.269,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/01/03 22:48:24.000.309,C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\workspaces\ws-delphi\mvc-delphi\src\Model\Integrations\Model.Integrations.SiteMercado.pas</Transaction>
+    <Transaction>2022/01/03 22:51:54.000.306,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/01/03 22:52:09.000.975,C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\workspaces\ws-delphi\mvc-delphi\src\Model\Integrations\Model.Services.pas</Transaction>
+    <Transaction>2022/01/03 23:02:26.000.127,C:\workspaces\ws-delphi\mvc-delphi\src\Model\Integrations\Model.Services.pas=C:\workspaces\ws-delphi\mvc-delphi\src\Model\Services\Model.Services.pas</Transaction>
+    <Transaction>2022/01/03 23:02:55.000.191,C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\workspaces\ws-delphi\mvc-delphi\src\View\View.Principal.dfm</Transaction>
+    <Transaction>2022/01/03 23:02:55.000.191,C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\workspaces\ws-delphi\mvc-delphi\src\View\View.Principal.pas</Transaction>
+    <Transaction>2022/01/03 23:05:00.000.091,C:\Users\leand\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\workspaces\ws-delphi\mvc-delphi\MVC.dproj</Transaction>
+    <Transaction>2022/01/03 23:14:44.000.182,=C:\workspaces\ws-delphi\mvc-delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 23:15:25.000.590,C:\workspaces\ws-delphi\mvc-delphi\src\Model\Integrations\Model.Integrations.pas=C:\workspaces\ws-delphi\mvc-delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 23:27:06.000.049,=C:\workspaces\ws-delphi\mvc-delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 23:27:15.000.260,C:\workspaces\ws-delphi\mvc-delphi\src\Model\Model.Interfaces.pas=C:\workspaces\ws-delphi\mvc-delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 23:29:16.000.114,=C:\workspaces\ws-delphi\mvc-delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 23:29:24.000.487,C:\workspaces\ws-delphi\mvc-delphi\src\Model\Model.pas=C:\workspaces\ws-delphi\mvc-delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 23:35:26.000.169,=C:\workspaces\ws-delphi\mvc-delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 23:35:45.000.299,C:\workspaces\ws-delphi\mvc-delphi\Unit1.pas=C:\workspaces\ws-delphi\mvc-delphi\src\Controller\Controller.Interfaces.pas</Transaction>
+    <Transaction>2022/01/03 23:38:03.000.444,=C:\workspaces\ws-delphi\mvc-delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/03 23:38:11.000.760,C:\workspaces\ws-delphi\mvc-delphi\Unit1.pas=C:\workspaces\ws-delphi\mvc-delphi\src\Controller\Controller.pas</Transaction>
+  </Transactions>
+</BorlandProject>

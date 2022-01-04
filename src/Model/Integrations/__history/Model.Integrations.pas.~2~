@@ -1,0 +1,13 @@
+unit Model.Integrations;
+
+interface
+uses
+  Model.Integrations.Interfaces;
+type
+  TModelIntegrations = class(TInterfacedObject, iIntegrations)
+
+  end;
+
+implementation
+
+end.

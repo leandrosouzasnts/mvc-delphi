@@ -1,0 +1,13 @@
+unit Controller.Interfaces;
+
+interface
+
+type
+  iController = interface
+    ['{3BCD055A-D32F-48EF-87D5-94039DAE8AC0}']
+    function Model : iModel;
+  end;
+
+implementation
+
+end.

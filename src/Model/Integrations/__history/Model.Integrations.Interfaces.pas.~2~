@@ -1,0 +1,11 @@
+unit Model.Integrations.Interfaces;
+
+interface
+type
+  iModelIntegrationsInterfaces = Interface
+    ['{A3ACD34C-1C49-48C4-A813-45376E3095AD}']
+  end;
+
+implementation
+
+end.

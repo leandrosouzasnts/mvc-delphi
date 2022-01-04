@@ -1,0 +1,11 @@
+unit Model.Services.Interfaces;
+
+interface
+type
+  iModelServicesInterfaces = Interface
+    ['{4A779BD2-3647-4FAB-94CA-F22D447D2592}']
+  End;
+
+implementation
+
+end.

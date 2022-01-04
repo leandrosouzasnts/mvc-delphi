@@ -1,0 +1,15 @@
+unit Model.Services.NFe;
+
+interface
+uses
+  Model.Services.Interfaces;
+type
+  TModelServicesNFe = class(TInterfacedObject, iModelServicesInterfaces)
+    constructor Create;
+    destructor Destroy; override;
+    class function New : iModelServicesInterfaces;
+  end;
+
+implementation
+
+end.

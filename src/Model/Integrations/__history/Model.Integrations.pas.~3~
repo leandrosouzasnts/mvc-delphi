@@ -1,0 +1,18 @@
+unit Model.Integrations;
+
+interface
+uses
+  Model.Integrations.Interfaces;
+type
+  TModelIntegrations = class(TInterfacedObject, iIntegrations)
+    constructor Create;
+    destructor Destroy; override;
+    class function New : iIntegrations;
+    function MercadoPago : iModelIntegrationsGenerics;
+    function SiteMercado : iModelIntegrationsGenerics;
+
+  end;
+
+implementation
+
+end.

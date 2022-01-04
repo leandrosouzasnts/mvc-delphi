@@ -1,0 +1,11 @@
+unit Model.Services;
+
+interface
+type
+  TModelServices = class(TInterfacedObject, iModelServices)
+
+  end;
+
+implementation
+
+end.
