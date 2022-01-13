@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/09/26 23:44:11.000.296,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/13 04:37:28.070,=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/13 04:39:14.178,C:\workspaces\ws-delphi\mvc-delphi\abstraindo_camada_conexao_mvc\View\View.Main.dfm=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/01/13 04:39:14.178,C:\workspaces\ws-delphi\mvc-delphi\abstraindo_camada_conexao_mvc\View\View.Main.pas=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/13 04:39:25.397,C:\workspaces\ws-delphi\mvc-delphi\abstraindo_camada_conexao_mvc\ConexaoMVC.pas=C:\Users\leand\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/01/13 04:39:41.633,=C:\workspaces\ws-delphi\mvc-delphi\abstraindo_camada_conexao_mvc\Unit1.pas</Transaction>
+    <Transaction>2022/01/13 04:42:04.080,C:\workspaces\ws-delphi\mvc-delphi\abstraindo_camada_conexao_mvc\Model\ConexaoMVC.Model.Connections.FireDac.pas=C:\workspaces\ws-delphi\mvc-delphi\abstraindo_camada_conexao_mvc\Unit1.pas</Transaction>
+    <Transaction>2022/01/13 04:42:08.975,=C:\workspaces\ws-delphi\mvc-delphi\abstraindo_camada_conexao_mvc\Unit1.pas</Transaction>
+    <Transaction>2022/01/13 04:42:25.036,C:\workspaces\ws-delphi\mvc-delphi\abstraindo_camada_conexao_mvc\Model\ConexaoMVC.Model.Interfaces.Connections.pas=C:\workspaces\ws-delphi\mvc-delphi\abstraindo_camada_conexao_mvc\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

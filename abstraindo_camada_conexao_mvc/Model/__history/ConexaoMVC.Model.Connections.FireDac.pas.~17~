@@ -1,0 +1,76 @@
+unit ConexaoMVC.Model.Connections.FireDac;
+
+interface
+
+uses
+  ConexaoMVC.Model.Interfaces.Connections,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.VCLUI.Wait,
+  FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt, Data.DB,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client, System.Classes;
+
+type
+  TModelConnectionsFireDac = class(TInterfacedObject, ModelInterfacesConnectionsGenerics)
+    private
+      FDConnection: TFDConnection;
+      FDQuery: TFDQuery;
+      procedure ConnectionConfig;
+    public
+      constructor Create;
+      destructor Destroy;override;
+      class function New : ModelInterfacesConnectionsGenerics;
+      function SQL : TStrings;
+      function Open : ModelInterfacesConnectionsGenerics;
+  end;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ TModelConnectionsFireDac }
+
+procedure TModelConnectionsFireDac.ConnectionConfig;
+begin
+  FDConnection.DriverName := 'SQLite';
+  FDConnection.LoginPrompt := False;
+  FDConnection.Params.Database := 'C:\workspaces\ws-delphi\FireDac\Exemplos\DB\ERP.db3';
+  FDConnection.Params.UserName := 'root';
+  FDConnection.Params.Password := '';
+end;
+
+constructor TModelConnectionsFireDac.Create;
+begin
+  FDConnection := TFDConnection.Create(nil);
+  FDQuery := TFDQuery.Create(nil);
+
+  FDQuery.Connection := FDConnection;
+
+  ConnectionConfig;
+end;
+
+destructor TModelConnectionsFireDac.Destroy;
+begin
+  FDQuery.Free;
+  FDConnection.Free;
+  inherited;
+end;
+
+class function TModelConnectionsFireDac.New: ModelInterfacesConnectionsGenerics;
+begin
+  Result := Self.Create;
+end;
+
+function TModelConnectionsFireDac.Open: ModelInterfacesConnectionsGenerics;
+begin
+  Result := Self;
+  FDQuery.Open;
+end;
+
+function TModelConnectionsFireDac.SQL: TStrings;
+begin
+  Result := FDQuery.SQL;
+end;
+
+end.

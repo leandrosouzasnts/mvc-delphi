@@ -1,0 +1,7 @@
+unit ConexaoMVC.Model.Interfaces.Connections;
+
+interface
+
+implementation
+
+end.

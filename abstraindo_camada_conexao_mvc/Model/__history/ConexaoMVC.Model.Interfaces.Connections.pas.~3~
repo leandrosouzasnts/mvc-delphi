@@ -1,0 +1,16 @@
+unit ConexaoMVC.Model.Interfaces.Connections;
+
+interface
+
+uses
+  System.Classes;
+type
+  ModelInterfacesConnectionsGenerics = interface
+    ['{419958B9-06BD-4590-92D0-75A83C243CC7}']
+    function SQL : TStrings;
+    function Open : ModelInterfacesConnectionsGenerics;
+  end;
+
+implementation
+
+end.

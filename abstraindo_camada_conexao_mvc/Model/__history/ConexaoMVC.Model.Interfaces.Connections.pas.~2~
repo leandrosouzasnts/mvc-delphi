@@ -1,0 +1,11 @@
+unit ConexaoMVC.Model.Interfaces.Connections;
+
+interface
+type
+  ModelInterfacesConnectionsGenerics = interface
+    ['{419958B9-06BD-4590-92D0-75A83C243CC7}']
+  end;
+
+implementation
+
+end.
